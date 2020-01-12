@@ -77,29 +77,29 @@ def main(args):
         while True:
 
             #Redail VPN
-            # if vpn.ERROR_BLOCK == True:
-            #     print "403 block -> change vpn"
-            #     for t in threading.enumerate():
-            #         if t is main_thread:
-            #             continue
-            #         t.join()
+            if vpn.ERROR_BLOCK == True and os.name == 'nt':
+                print "403 block -> change vpn"
+                for t in threading.enumerate():
+                    if t is main_thread:
+                        continue
+                    t.join()
                                 
-            #     #c_threads = []
-            #     vpn.changeip()
-            #     vpn.ERROR_BLOCK = False
-            #     last_checkupdate_time = time.time()
-            # elif time.time() - last_checkupdate_time >= 1800:
-            #     print "change vpn"
-            #     for t in threading.enumerate():
-            #         if t is main_thread:
-            #             continue
-            #         t.join()
+                #c_threads = []
+                vpn.changeip()
+                vpn.ERROR_BLOCK = False
+                last_checkupdate_time = time.time()
+            elif time.time() - last_checkupdate_time >= 1800 and os.name == 'nt':
+                print "change vpn"
+                for t in threading.enumerate():
+                    if t is main_thread:
+                        continue
+                    t.join()
                 
-            #     #c_threads = []
+                #c_threads = []
                 
-            #     vpn.changeip()
-            #     last_checkupdate_time = time.time()
-            #     vpn.ERROR_BLOCK = False
+                vpn.changeip()
+                last_checkupdate_time = time.time()
+                vpn.ERROR_BLOCK = False
 
             # check updates
             #last_checkupdate_time = 0

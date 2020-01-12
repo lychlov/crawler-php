@@ -18370,3 +18370,56 @@
 [2019-12-27 15:17:11][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
 [2019-12-27 15:17:11][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
 [2019-12-27 15:17:15][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - crawler(crawler id: e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c) terminated
+[2020-01-12 20:01:14][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - start (crawler id: e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c)...
+[2020-01-12 20:01:18][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 20:01:18][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 20:01:28][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 20:01:28][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 20:01:40][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 20:01:40][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 20:01:40][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - crawler(crawler id: e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c) terminated
+[2020-01-12 20:09:18][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - start (crawler id: e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c)...
+[2020-01-12 20:09:19][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 20:09:19][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 20:09:29][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 20:09:29][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 20:09:40][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 20:09:40][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 20:09:52][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 20:09:52][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 20:09:53][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - crawler(crawler id: e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c) terminated
+[2020-01-12 22:10:25][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - start (crawler id: e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c)...
+[2020-01-12 22:10:26][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 22:10:26][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 22:10:57][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - ** ERR: svr_get_tasks (<urlopen error [Errno 10060] >)
+[2020-01-12 22:11:30][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 22:11:30][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 22:11:40][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 22:11:40][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 22:11:51][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 22:11:51][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 22:12:02][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 22:12:02][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 22:13:14][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 22:13:14][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 22:13:25][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 22:13:25][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 22:13:37][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 22:13:37][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 22:13:49][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 22:13:49][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 22:14:42][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 22:14:42][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 22:14:53][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 22:14:53][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 22:15:09][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 22:15:09][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 22:15:19][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 22:15:19][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 22:17:22][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - ERR: global name 'ConfigParser' is not defined
+[2020-01-12 22:17:22][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - crawler(crawler id: e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c) terminated
+[2020-01-12 22:20:06][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - start (crawler id: e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c)...
+[2020-01-12 22:20:12][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 22:20:12][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks
+[2020-01-12 22:20:24][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - wait for next getting tasks(sleep 10 secs)
+[2020-01-12 22:20:24][e96b1908-b9ef-4e39-ae8a-7f6cd8efc10c] - got 10 tasks

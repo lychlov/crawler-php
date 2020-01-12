@@ -56,7 +56,7 @@ class mega_crawler_task_proc:
                 'Mozilla/5.0 (Linux; U; Android 6.0.1; zh-cn; ZUK Z1 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/37.0.0.0 MQQBrowser/7.4 Mobile Safari/537.36'
                 ]
                 i = random.randint(0,17)
-                headers = {'User-Agent':'Googlebot/2.1 (+http://www.google.com/bot.html)','Referer':url}
+                headers = {'User-Agent':headersarr[i],'Referer':url}
 
                 # if header:
                 #     headers = header.split("\n")
@@ -90,6 +90,11 @@ class mega_crawler_task_proc:
                     result = {'code':error_code, 'header':'', 'content': '', 'url':url, 'newurl':'','urlid':urlid}
                     continue
                 time.sleep(2)
+
+            print(f.content)
+
+            print(f.status_code)
+
             try:
                 result = {'code':f.status_code, 'header':f.headers, 'content': f.content, 'url':url, 'newurl':f.url,'urlid':urlid}
             except:
@@ -162,7 +167,7 @@ class mega_crawler_task_proc:
             urlid = self.tasks['urls'][i]['UrlId']
             if url is None:
                 continue
-            print '  processing: %s...' % (url)
+            print('  processing: %s...' % (url))
             
             url_parse = urlparse(url)
 
@@ -204,10 +209,10 @@ class mega_crawler_task_proc:
             # exit()
             
             if 'sorry but your usage of this site resembles automated software' in download_result['content']:
-            	print "content block"
+            	print("content block")
             	download_result['code'] = 403
             
-            print download_result['code']
+            print(download_result['code'])
 
             #or download_result['code'] == 408:
             if download_result['code'] == 403:
@@ -225,7 +230,7 @@ class mega_crawler_task_proc:
 
             if download_result['code'] == 403:
                 self.blocked_domain.append(domain)
-                print '  detected a 403 domain [%s]' % domain
+                print('  detected a 403 domain [%s]' % domain)
                 # self.log.log_msg('  detected a 403 domain [%s]' % domain)
             else:
                 if last_domain == domain:
@@ -236,6 +241,6 @@ class mega_crawler_task_proc:
 
 if __name__ == '__main__':
     obj = mega_crawler_task_proc('test', [], [], None, None)
-    result = obj.download_page('http://www.goodshop.com/coupons/travelocity', [], 1 , [])
+    result = obj.download_page('http://www.dealscove.com/coupons/order.pizzahut.com', [], 1 , [])
     print(result)
             

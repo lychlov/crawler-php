@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['crawler_main.py'],
-             pathex=['/Users/yiyi/BeDev/crawler-php'],
+             pathex=['C:\\crawler-php-master'],
              binaries=[],
              datas=[],
              hiddenimports=['queue'],
